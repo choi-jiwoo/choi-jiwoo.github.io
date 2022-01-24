@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className='sticky w-full border-gray-900/10 bg-light'>
       <nav className='container-xl navbar navbar-expand-lg navbar-light bg-light'>
         <div className='container-fluid'>
-          <Link className='navbar-brand' to='/my-website'>
+          <Link className='navbar-brand' to='/'>
             Choi Ji Woo
           </Link>
           <button
