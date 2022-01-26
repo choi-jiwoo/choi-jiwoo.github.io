@@ -2,6 +2,7 @@ import React from 'react';
 import Profile from '../component/Profile';
 import About from '../component/About';
 import Timeline from '../component/Timeline';
+import Footer from '../component/Footer';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <About />
         <Timeline />
       </div>
+      <Footer />
     </div>
   );
 }
