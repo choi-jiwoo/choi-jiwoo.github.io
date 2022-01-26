@@ -4,7 +4,7 @@ import profile from '../asset/profile.jpg';
 function Profile() {
   return (
     <div className='flex flex-col items-center'>
-      <div className='pt-12 pb-6'>
+      <div className='pt-24 pb-6'>
         <img className='w-64 rounded-full' src={profile} alt='profile_image' />
       </div>
       <div className='font-bold'>Choi Ji Woo</div>
