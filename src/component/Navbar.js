@@ -3,36 +3,43 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='sticky w-full border-gray-900/10 bg-light'>
-      <nav className='container-xl navbar navbar-expand-lg navbar-light bg-light'>
-        <div className='container-fluid'>
-          <Link className='navbar-brand' to='/my-website'>
-            Choi Ji Woo
-          </Link>
-          <button
-            className='navbar-toggler'
-            type='button'
-            data-bs-toggle='collapse'
-            data-bs-target='#navbarNavAltMarkup'
-            aria-controls='navbarNavAltMarkup'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
-            <div className='navbar-nav'>
-              <Link className='nav-item nav-link' to='/my-website/cv'>
-                CV
-              </Link>
-              <Link className='nav-item nav-link' to='/my-website/portfolio'>
-                Portfolio
-              </Link>
-            </div>
+    <nav className='container-xl navbar navbar-expand-lg navbar-light py-4'>
+      <div className='container-fluid'>
+        <Link
+          className='navbar-brand font-extrabold tracking-widest'
+          to='/my-website'
+        >
+          Choi Ji Woo
+        </Link>
+        <button
+          className='navbar-toggler'
+          type='button'
+          data-bs-toggle='collapse'
+          data-bs-target='#navbarNavAltMarkup'
+          aria-controls='navbarNavAltMarkup'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
+        >
+          <span className='navbar-toggler-icon'></span>
+        </button>
+        <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
+          <div className='navbar-nav'>
+            <Link
+              className='nav-item nav-link font-extrabold tracking-widest'
+              to='/my-website/cv'
+            >
+              CV
+            </Link>
+            <Link
+              className='nav-item nav-link font-extrabold tracking-widest'
+              to='/my-website/portfolio'
+            >
+              Portfolio
+            </Link>
           </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 };
 
