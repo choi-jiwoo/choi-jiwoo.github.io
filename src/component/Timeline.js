@@ -11,9 +11,10 @@ function Timeline() {
           items={events}
           mode='VERTICAL'
           hideControls='True'
+          lineWidth='2'
           theme={{
-            primary: '#3b82f6',
-            secondary: '#a6a6a6',
+            primary: '#4d4d4d',
+            secondary: '#3b82f6',
             titleColor: 'white',
           }}
         />
