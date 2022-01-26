@@ -10,7 +10,7 @@ function Profile() {
       <div className='font-bold'>Choi Ji Woo</div>
       <div className='text-2xl'>🇰🇷</div>
       <a className='text-blue-500' href='tel:01033634087'>
-        010-3363-4087
+        +82) 010-3363-4087
       </a>
       <a className='text-blue-500' href='mailto:cho2.jiwoo@gmail.com'>
         cho2.jiwoo@gmail.com
