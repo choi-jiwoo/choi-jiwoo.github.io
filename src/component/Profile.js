@@ -34,17 +34,10 @@ function Profile() {
             alt='dev.to'
           />
         </a>
-
         <a href='https://www.instagram.com/cho2_ji/'>
           <img
             src='https://img.shields.io/badge/Instagram-ff00ff?logo=instagram&logoColor=ffffff'
             alt='Instagram'
-          />
-        </a>
-        <a href='https://twitter.com/cho2_ji'>
-          <img
-            src='https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=ffffff'
-            alt='Twitter'
           />
         </a>
       </div>
