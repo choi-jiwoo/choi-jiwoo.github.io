@@ -1,6 +1,6 @@
 {
-  "name": "my-website",
-  "homepage": "http://choi-jiwoo.github.io/my-website",
+  "name": "choijiwoo",
+  "homepage": "http://choi-jiwoo.github.io/choijiwoo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

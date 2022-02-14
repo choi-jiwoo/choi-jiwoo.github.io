@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className='container-fluid'>
         <Link
           className='navbar-brand font-extrabold tracking-widest'
-          to='/my-website'
+          to='/choijiwoo'
         >
           <p className='text-blue-500'>Choi Ji Woo</p>
         </Link>
@@ -26,13 +26,13 @@ const Navbar = () => {
           <div className='navbar-nav'>
             <Link
               className='nav-item nav-link font-extrabold tracking-widest'
-              to='/my-website/cv'
+              to='/choijiwoo/cv'
             >
               CV
             </Link>
             <Link
               className='nav-item nav-link font-extrabold tracking-widest'
-              to='/my-website/project'
+              to='/choijiwoo/project'
             >
               Project
             </Link>

@@ -10,9 +10,9 @@ function App() {
       <div className='App'>
         <Navbar />
         <Routes>
-          <Route path='/my-website' exact element={<Home />} />
-          <Route path='/my-website/cv' exact element={<Cv />} />
-          <Route path='/my-website/project' exact element={<Project />} />
+          <Route path='/choijiwoo' exact element={<Home />} />
+          <Route path='/choijiwoo/cv' exact element={<Cv />} />
+          <Route path='/choijiwoo/project' exact element={<Project />} />
         </Routes>
       </div>
     </Router>
