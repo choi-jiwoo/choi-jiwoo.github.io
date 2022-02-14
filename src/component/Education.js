@@ -3,7 +3,7 @@ import React from 'react';
 function Education() {
   return (
     <div className='pt-20'>
-      <div className='font-extrabold text-4xl pb-3'>Education</div>
+      <div className='section-heading'>Education</div>
       <div>
         <div className='flex justify-between'>
           <div className='text-xl font-bold'>Ajou University</div>

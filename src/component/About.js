@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
   return (
     <div className='pt-20'>
-      <div className='font-extrabold text-4xl pb-3'>About</div>
-      <div className='leading-relaxed text-lg indent-8'>
+      <div className='section-heading'>About</div>
+      <div className='leading-relaxed indent-8'>
         Currently studying for a bachelor's degree in e-business at Ajou
         University in Republic of Korea. Interested in tech industry generally,
         data engineering, data analytics, and how technology and data can bring
