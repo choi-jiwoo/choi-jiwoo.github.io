@@ -9,7 +9,7 @@ const Navbar = () => {
           className='navbar-brand font-extrabold tracking-widest'
           to='/my-website'
         >
-          Choi Ji Woo
+          <p className='text-blue-500'>Choi Ji Woo</p>
         </Link>
         <button
           className='navbar-toggler'
