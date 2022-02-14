@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div className='pt-32'>
+    <div className='pt-20'>
       <div className='font-extrabold text-4xl pb-3'>About</div>
       <div className='leading-relaxed text-lg indent-8'>
         Currently studying for a bachelor's degree in e-business at Ajou
