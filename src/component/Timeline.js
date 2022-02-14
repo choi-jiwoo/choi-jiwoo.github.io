@@ -9,8 +9,10 @@ function Timeline() {
       <div style={{ width: '100%', height: '800px' }}>
         <Chrono
           items={events}
-          mode='VERTICAL'
+          mode='VERTICAL_ALTERNATING'
           hideControls='True'
+          cardHeight='150'
+          cardWidth='300'
           lineWidth='2'
           theme={{
             primary: '#4d4d4d',
