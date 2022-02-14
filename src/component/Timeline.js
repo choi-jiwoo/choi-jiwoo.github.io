@@ -4,7 +4,7 @@ import events from '../asset/events.json';
 
 function Timeline() {
   return (
-    <div className='pt-32'>
+    <div className='pt-20'>
       <div className='font-extrabold text-4xl pb-3'>Timeline</div>
       <div style={{ width: '100%', height: '400px' }}>
         <Chrono
