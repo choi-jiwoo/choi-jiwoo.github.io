@@ -32,9 +32,9 @@ const Navbar = () => {
             </Link>
             <Link
               className='nav-item nav-link font-extrabold tracking-widest'
-              to='/my-website/portfolio'
+              to='/my-website/project'
             >
-              Portfolio
+              Project
             </Link>
           </div>
         </div>

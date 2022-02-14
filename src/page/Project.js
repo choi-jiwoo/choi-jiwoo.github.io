@@ -1,12 +1,12 @@
 import React from 'react';
 
-function Portfolio() {
+function Project() {
   return (
     <div className='container-xl'>
       <div className='text-4xl text-center py-16'>
         🛠
         <br />
-        Portfolio page
+        Project page
         <br />
         under construction
       </div>
@@ -14,4 +14,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Project;
