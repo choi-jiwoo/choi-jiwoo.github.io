@@ -6,14 +6,12 @@ import Footer from '../component/Footer';
 
 function Home() {
   return (
-    <div className='container-xl'>
+    <>
       <Profile />
-      <div className='mx-36'>
-        <About />
-        <Timeline />
-      </div>
+      <About />
+      <Timeline />
       <Footer />
-    </div>
+    </>
   );
 }
 
