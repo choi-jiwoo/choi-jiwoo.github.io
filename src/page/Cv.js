@@ -1,15 +1,17 @@
 import React from 'react';
+import { Document, Page } from 'react-pdf';
 
-function Cv() {
+function Cv({ cv }) {
   return (
-    <div className='container-xl'>
-      <div className='text-4xl text-center py-16'>
-        🛠
-        <br />
-        CV page
-        <br />
-        under construction
+    <div className='flex flex-col'>
+      <div className='place-self-end'>
+        <a href={cv} download>
+          💾 Download CV
+        </a>
       </div>
+      <Document file={cv}>
+        <Page pageNumber={1} />
+      </Document>
     </div>
   );
 }
