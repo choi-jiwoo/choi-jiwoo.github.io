@@ -18,6 +18,13 @@ body {
   padding-right: 6rem;
 }
 
+.section-heading {
+  font-weight: 800;
+  padding-bottom: 0.75rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .card-title > a {
   color: #3b82f6 !important;
 }
