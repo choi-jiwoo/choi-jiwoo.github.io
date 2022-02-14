@@ -2,9 +2,9 @@ import React from 'react';
 
 function About() {
   return (
-    <div className='pt-16'>
+    <div className='pt-32'>
       <div className='font-extrabold text-4xl pb-3'>About Me</div>
-      <div className='leading-relaxed text-lg'>
+      <div className='leading-relaxed text-lg indent-8'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a lacus
         et felis sodales luctus. Quisque id purus quam. Cras ac diam vitae dolor
         hendrerit convallis vitae vitae augue. Donec tempor eros mauris,
