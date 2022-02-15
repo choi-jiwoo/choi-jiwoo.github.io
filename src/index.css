@@ -8,20 +8,24 @@
   font-family: 'Manrope', sans-serif;
 }
 
-body {
-  max-width: 60rem;
-  margin: 0 auto;
-}
-
 .App {
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+nav {
+  width: 80vw;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
 .content {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .section-heading {
