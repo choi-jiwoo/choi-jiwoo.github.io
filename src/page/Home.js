@@ -8,14 +8,14 @@ import Funfact from '../component/Funfact';
 
 function Home() {
   return (
-    <div className='content'>
+    <>
       <Profile />
       <Quotes />
       <About />
       <Funfact />
       <Education />
       <Timeline />
-    </div>
+    </>
   );
 }
 

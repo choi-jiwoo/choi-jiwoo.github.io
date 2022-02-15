@@ -13,11 +13,17 @@ function App() {
     <Router>
       <div className='App'>
         <NavigationBar />
-        <Routes>
-          <Route path='/choijiwoo' exact element={<Home />} />
-          <Route path='/choijiwoo/cv' exact element={<Cv cv={'./cv.pdf'} />} />
-          <Route path='/choijiwoo/project' exact element={<Project />} />
-        </Routes>
+        <div className='content'>
+          <Routes>
+            <Route path='/choijiwoo' exact element={<Home />} />
+            <Route
+              path='/choijiwoo/cv'
+              exact
+              element={<Cv cv={'./cv.pdf'} />}
+            />
+            <Route path='/choijiwoo/project' exact element={<Project />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </Router>
