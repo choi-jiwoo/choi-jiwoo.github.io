@@ -31,13 +31,22 @@ body {
   line-height: 2.25rem;
 }
 
-.card-title > a {
+.card-title {
   color: #3b82f6 !important;
 }
 
 .react-pdf__Page__canvas {
   margin: 0 auto;
   width: 50%;
+}
+
+.css-15qp7aj-TimelineContentContainer.horizontal {
+  min-width: 300px !important;
+  max-width: 500px;
+}
+
+.css-13cq3b1-TitleWrapper.active {
+  color: white !important;
 }
 
 .flag > p > span {
