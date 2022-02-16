@@ -1,0 +1,37 @@
+[
+  {
+    "name": "financialdatapy",
+    "url": "https://github.com/choi-jiwoo/financialdatapy",
+    "stack": "Python, Sphinx",
+    "description": "financialdatapy is a python package for getting a fundamental financial data of a company. User can see the company's latest financial statement reported, standard financials, and historical stock price. financialdatapy will be a good choice for research purposes, and managing an investment portfolio. financialdatapy is solely made for retail investors who uses stock data in their portfolio management or a research purposes",
+    "whatidid": "Scraped, and preprocessed financial statement, and historical stock price data of companies in USA, and KOR specifically. Deployed the package to PyPI with full documentation made with Sphinx."
+  },
+  {
+    "name": "naverplacescraper",
+    "url": "https://github.com/choi-jiwoo/naver-place-scraper",
+    "stack": "Python",
+    "description": "naverplacescraper is a python package that scrapes store reviews of a store from Naver Place. User can search by store name, or multiple stores at once. naverplacescraper is solely made for research purposes only.",
+    "whatidid": "Made a bot to scrape store description and store reviews that is searched. Deployed the package to PypI. Originally, it was made to use it on my capstone project."
+  },
+  {
+    "name": "musinsa-ranking",
+    "url": "https://github.com/choi-jiwoo/musinsa-ranking",
+    "stack": "Python, Github Action",
+    "description": "Using Github Action, I was able to build a workflow that sends current search keyword ranking in Musinsa store to my email every morning.",
+    "whatidid": "Created Github Action workflow as proof of concept for running a cron job."
+  },
+  {
+    "name": "capstone project - React",
+    "url": "https://github.com/choi-jiwoo/capstone-project-react",
+    "stack": "React, Javascript",
+    "description": "Created React application where user can get information on places where they can involve in Sustainable Tourism. User can look for restaurants, café, places to stay, and plogging courses. For restaurants, and café, user can choose filter keywords to find stores. Then, locations will be displayed in a map.",
+    "whatidid": "Using React, we implemented 4 main services which provides user information on restaurant, café, places to stay, and plogging course. And with Kakao web API, Location of stores and ploggin course are displayed on Kakako map."
+  },
+  {
+    "name": "capstone project - Django",
+    "url": "https://github.com/choi-jiwoo/capstone-project-django",
+    "stack": "Django, Python, PostgreSQL",
+    "description": "Created Django application for client to communicate with the server. Built REST API for the client to query data from a database.",
+    "whatidid": "Extracted keywords of each stores are stored in PostgreSQL database. And built REST API server with Django Rest Framework(DRF) that will handle query parameters sent from client."
+  }
+]
