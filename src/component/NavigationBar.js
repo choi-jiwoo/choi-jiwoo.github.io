@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 const NavigationBar = () => {
   return (
-    <Navbar className='py-4' expand='lg'>
+    <Navbar className='pt-4 pb-16' expand='lg'>
       <Link
         className='navbar-brand font-extrabold tracking-widest'
         to='/choijiwoo'
