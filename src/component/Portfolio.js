@@ -8,7 +8,9 @@ function Portfolio({ list }) {
           <a className='font-bold text-xl' href={item.url}>
             {item.name}
           </a>
+          <p className='italic'>{item.stack}</p>
           <p className='indent-5 pt-2'>{item.description}</p>
+          <p className='indent-5 pt-2'>{item.whatidid}</p>
         </div>
       ))}
     </div>
