@@ -2,16 +2,16 @@ import React from 'react';
 
 function Portfolio({ list }) {
   return (
-    <>
+    <div className='py-4 pl-2'>
       {list.map((item) => (
-        <div className='pt-4 pb-8 border-b'>
-          <a className='font-bold text-lg' href={item.url}>
+        <div className='pt-2 pb-4'>
+          <a className='font-bold text-xl' href={item.url}>
             {item.name}
           </a>
-          <p>description</p>
+          <p className='indent-5 pt-2'>{item.description}</p>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 
