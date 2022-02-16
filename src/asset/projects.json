@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "name": "financialdatapy",
     "url": "https://github.com/choi-jiwoo/financialdatapy",
     "stack": "Python, Sphinx",
@@ -7,6 +8,7 @@
     "whatidid": "Scraped, and preprocessed financial statement, and historical stock price data of companies in USA, and KOR specifically. Deployed the package to PyPI with full documentation made with Sphinx."
   },
   {
+    "id": 1,
     "name": "naverplacescraper",
     "url": "https://github.com/choi-jiwoo/naver-place-scraper",
     "stack": "Python",
@@ -14,6 +16,7 @@
     "whatidid": "Made a bot to scrape store description and store reviews that is searched. Deployed the package to PypI. Originally, it was made to use it on my capstone project."
   },
   {
+    "id": 2,
     "name": "musinsa-ranking",
     "url": "https://github.com/choi-jiwoo/musinsa-ranking",
     "stack": "Python, Github Action",
@@ -21,6 +24,7 @@
     "whatidid": "Created Github Action workflow as proof of concept for running a cron job."
   },
   {
+    "id": 3,
     "name": "capstone project - React",
     "url": "https://github.com/choi-jiwoo/capstone-project-react",
     "stack": "React, Javascript",
@@ -28,6 +32,7 @@
     "whatidid": "Using React, we implemented 4 main services which provides user information on restaurant, café, places to stay, and plogging course. And with Kakao web API, Location of stores and ploggin course are displayed on Kakako map."
   },
   {
+    "id": 4,
     "name": "capstone project - Django",
     "url": "https://github.com/choi-jiwoo/capstone-project-django",
     "stack": "Django, Python, PostgreSQL",
