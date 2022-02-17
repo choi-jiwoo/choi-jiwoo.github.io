@@ -7,7 +7,7 @@ function ProjectImg({ imgs }) {
       {imgs.map((img) => (
         <Carousel.Item key={img}>
           <img
-            className='d-block object-left-top object-cover'
+            className='d-block object-top object-cover'
             src={img}
             alt='img'
           />
