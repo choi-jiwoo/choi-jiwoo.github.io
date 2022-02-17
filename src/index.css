@@ -67,3 +67,8 @@ nav {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   content: ' ↗︎';
 }
+
+.carousel-item > img {
+  width: 100%;
+  height: 40vh;
+}
