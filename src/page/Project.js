@@ -8,22 +8,24 @@ function Project() {
 
   return (
     <div className='project'>
-      <div className='pb-2 font-bold text-2xl'>Personal Project</div>
-      <p className='indent-5'>Projects done personally.</p>
+      <div className='font-bold text-3xl mt-8'>Personal Project</div>
+      <p className='indent-5 mt-2'>Projects done personally.</p>
+      <hr className='mt-4' />
       <Portfolio list={personalProject} />
-      <div className='pb-2 font-bold text-2xl'>Capstone Project</div>
-      <p className='indent-5'>
+      <div className='font-bold text-3xl mt-8'>Capstone Project</div>
+      <p className='indent-5 mt-2'>
         The project aims to provide people information on where to go when they
         are planning to involve in a Sustainable Tourism. As climate change
         became the biggest issue, the bad effects caused by overtourism in the
         traveling country also aroused. But there was not enough information on
         how a traveler can involve in the sustainable tourism.
       </p>
-      <p className='indent-5'>
+      <p className='indent-5 mt-2'>
         In the project, our team narrowed the region to Jejudo since we saw
         negative effects caused by overtourism like rising rents and
         environmental pollutions in the region.
       </p>
+      <hr className='mt-4' />
       <Portfolio list={capstoneProject} />
     </div>
   );
