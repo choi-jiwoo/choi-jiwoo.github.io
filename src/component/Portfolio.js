@@ -1,6 +1,16 @@
 import React from 'react';
+import ProjectImg from './ProjectImg';
+import Image from './Image';
 
 function Portfolio({ list }) {
+  const imgs = [
+    Image('financialdatapy'),
+    Image('naverplacescraper'),
+    Image('musinsaranking'),
+    Image('frontend'),
+    Image('backend'),
+  ];
+
   return (
     <div className='py-4 pl-2'>
       {list.map((item) => (
@@ -11,6 +21,7 @@ function Portfolio({ list }) {
           <p className='italic'>{item.stack}</p>
           <p className='indent-5 pt-2'>{item.description}</p>
           <p className='indent-5 pt-2'>{item.whatidid}</p>
+          <ProjectImg imgs={imgs[item.id]} />
         </div>
       ))}
     </div>
