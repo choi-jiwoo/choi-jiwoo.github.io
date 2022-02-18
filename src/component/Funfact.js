@@ -8,7 +8,7 @@ function Funfact() {
         <p>
           - My MBTI is <span className='font-bold tracking-wide'>ISTJ</span>{' '}
           from
-          <a href='https://www.16personalities.com/' className='text-blue-500'>
+          <a href='https://www.16personalities.com/istj-personality' className='text-blue-500'>
             {' '}
             16personalities.com
           </a>
