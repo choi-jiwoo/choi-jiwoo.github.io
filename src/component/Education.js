@@ -7,10 +7,9 @@ function Education() {
       <div>
         <div className='flex justify-between'>
           <div className='text-xl font-bold'>Ajou University</div>
-          <div>2019~present</div>
+          <div>2019~2022</div>
         </div>
         <div className='pl-4 leading-7'>
-          <p>- Department of E-business</p>
           <p className='italic'>
             - Bachelor of Business Administration in E-Business (Expected August
             2022)
@@ -22,12 +21,10 @@ function Education() {
           <div>2013~2016</div>
         </div>
         <div className='pl-4 leading-7'>
-          <p>- Department of Computer, Information Sciences and Mathematics</p>
-          <p className='italic'>
-            - Bachelor of Science in Information and Communication Technology
-            (unfinished)
+          <p>
+            - Completed 93 credits towards a B.S in Information and
+            Communications Technology
           </p>
-          <p>- GPA: xx.x% / 100%</p>
         </div>
       </div>
     </div>
