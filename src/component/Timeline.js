@@ -6,7 +6,7 @@ function Timeline() {
   return (
     <div className='pt-20'>
       <div className='section-heading'>Timeline</div>
-      <div className='pt-4' style={{ width: '100%', height: '300px' }}>
+      <div className='pt-4' style={{ width: '100%', height: '350px' }}>
         <Chrono
           items={events}
           mode='HORIZONTAL'
