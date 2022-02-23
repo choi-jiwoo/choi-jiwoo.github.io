@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
+import cv from '../asset/cv.pdf';
 
 const NavigationBar = () => {
   return (
@@ -16,7 +17,8 @@ const NavigationBar = () => {
         <Nav className='me-auto'>
           <Link
             className='nav-link font-extrabold tracking-widest'
-            to='/choijiwoo/cv'
+            to={cv}
+            target='_blank'
           >
             CV
           </Link>
