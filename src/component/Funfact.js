@@ -3,7 +3,7 @@ import React from 'react';
 function Funfact() {
   return (
     <div className='pt-20'>
-      <div className='section-heading'>Fun Fact</div>
+      <div className='section-heading'>Fun Facts</div>
       <div className='leading-7'>
         <p>
           - My MBTI is <span className='font-bold tracking-wide'>ISTJ</span>{' '}

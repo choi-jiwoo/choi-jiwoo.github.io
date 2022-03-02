@@ -7,7 +7,7 @@ function About() {
       <div className='leading-relaxed indent-8'>
         Currently studying for a bachelor's degree in e-business at Ajou
         University in Republic of Korea. Interested in tech industry generally,
-        data engineering, data analytics, and how technology and data can bring
+        data analytics, data engineering, and how technology and data can bring
         about change. And I want to be involved in the great changes that are
         happening now with big data and AI technologies in many other industries
         not only in IT.
