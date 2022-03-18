@@ -3,8 +3,10 @@ import Portfolio from '../component/Portfolio';
 import projects from '../asset/projects.json';
 
 function Project() {
-  const personalProject = projects.slice(0, 3);
-  const capstoneProject = projects.slice(3, 5);
+  const capstoneProjectLen = 2;
+  const personalProjectLen = projects.length - capstoneProjectLen;
+  const personalProject = projects.slice(0, personalProjectLen);
+  const capstoneProject = projects.slice(personalProjectLen, projects.length);
 
   return (
     <div className='project'>
