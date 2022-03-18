@@ -5,6 +5,7 @@ import Image from './Image';
 function Portfolio({ list }) {
   const imgs = [
     Image('financialdatapy'),
+    Image('pyqtstockchart'),
     Image('naverplacescraper'),
     Image('musinsaranking'),
     Image('frontend'),

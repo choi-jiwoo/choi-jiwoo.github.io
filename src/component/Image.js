@@ -3,6 +3,11 @@ import financial_documentation from '../asset/financialdatapy/documentation.png'
 import financial_example from '../asset/financialdatapy/example.png';
 import financial_pypi from '../asset/financialdatapy/pypi.png';
 
+// pyqt-stock-chart
+import main from '../asset/pyqtstockchart/main.png';
+import addStock from '../asset/pyqtstockchart/add_stock.png';
+import deleteStock from '../asset/pyqtstockchart/delete_stock.png';
+
 // naverplacescraper
 import naver_example from '../asset/naverplacescraper/example.png';
 import naver_pypi from '../asset/naverplacescraper/pypi.png';
@@ -28,6 +33,9 @@ function Image(directory) {
   switch (directory) {
     case 'financialdatapy':
       imgs = [financial_pypi, financial_documentation, financial_example];
+      break;
+    case 'pyqtstockchart':
+      imgs = [main, addStock, deleteStock];
       break;
     case 'naverplacescraper':
       imgs = [naver_pypi, naver_example];
