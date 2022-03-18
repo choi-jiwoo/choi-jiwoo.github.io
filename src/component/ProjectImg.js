@@ -3,14 +3,10 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectImg({ imgs }) {
   return (
-    <Carousel className='overflow-hidden mt-2' variant='dark'>
+    <Carousel className='mt-2' variant='dark'>
       {imgs.map((img) => (
         <Carousel.Item key={img}>
-          <img
-            className='d-block object-top object-cover'
-            src={img}
-            alt='img'
-          />
+          <img className='d-block' src={img} alt='img' />
         </Carousel.Item>
       ))}
     </Carousel>
