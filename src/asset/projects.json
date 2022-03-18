@@ -9,6 +9,14 @@
   },
   {
     "id": 1,
+    "name": "pyqt stock chart",
+    "url": "https://github.com/choi-jiwoo/pyqt-stock-chart",
+    "stack": "Python, PyQt5, PyInstaller",
+    "description": "pyqt stock chart is a simple Mac OS application that displays stock price chart in a watchlist. The application can add and remove stocks in the watchlist. Price chart of stocks in the watchlist will be loaded. The project is primarily made for my personal use to easily track the price of stocks I have invested.",
+    "whatidid": "Used PyQt5 in building GUI application and deployed an executable application with PyInstaller."
+  },
+  {
+    "id": 2,
     "name": "naverplacescraper",
     "url": "https://github.com/choi-jiwoo/naver-place-scraper",
     "stack": "Python",
@@ -16,23 +24,23 @@
     "whatidid": "Made a bot to scrape store description and store reviews that is searched. Deployed the package to PypI. Originally, it was made to use it on my capstone project."
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "musinsa-ranking",
     "url": "https://github.com/choi-jiwoo/musinsa-ranking",
     "stack": "Python, Github Action",
     "description": "Using Github Action, I was able to build a workflow that sends current search keyword ranking in Musinsa store to my email every morning.",
-    "whatidid": "Created Github Action workflow as proof of concept of running a cron job."
+    "whatidid": "Created Github Action workflow as proof of concept for running a cron job."
   },
   {
-    "id": 3,
-    "name": "frontend - React",
+    "id": 4,
+    "name": "fontend - React",
     "url": "https://github.com/choi-jiwoo/capstone-project-react",
     "stack": "React, Javascript",
     "description": "Created React application where user can get information on places where they can involve in Sustainable Tourism. User can look for restaurants, café, places to stay, and plogging courses. For restaurants, and café, user can choose filter keywords to find stores. Then, locations will be displayed in a map.",
     "whatidid": "Using React, we implemented 4 main services which provides user information on restaurant, café, places to stay, and plogging course. For plogging courses, we fetch walking/jogging courses from Durunubi service API. And with Kakao web API, location of stores and plogging courses are displayed on Kakako map."
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "backend - Django",
     "url": "https://github.com/choi-jiwoo/capstone-project-django",
     "stack": "Django, Python, PostgreSQL",
