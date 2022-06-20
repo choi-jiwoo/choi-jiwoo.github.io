@@ -10,7 +10,7 @@ function Project() {
 
   return (
     <div className='project'>
-      <div className='font-bold text-3xl mt-8'>Personal Project</div>
+      <div className='font-bold text-3xl mt-8'>Personal Projects</div>
       <p className='indent-5 mt-2'>Projects done personally.</p>
       <hr className='mt-4' />
       <Portfolio list={personalProject} />
