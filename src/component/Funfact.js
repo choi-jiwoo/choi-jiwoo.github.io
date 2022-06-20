@@ -6,15 +6,21 @@ function Funfact() {
       <div className='section-heading'>Fun Facts</div>
       <div className='leading-7'>
         <p>
-          - My MBTI is <span className='font-bold tracking-wide'>ISTJ</span>{' '}
-          from
-          <a href='https://www.16personalities.com/istj-personality' className='text-blue-500'>
-            {' '}
-            16personalities.com
+          -&nbsp;
+          <a href='https://www.16personalities.com/' className='text-blue-500'>
+            Personality test
           </a>
+          &nbsp;result says I'm an&nbsp;
+          <a
+            href='https://www.16personalities.com/istj-personality'
+            className='text-lg font-bold tracking-wider'
+          >
+            ISTJ
+          </a>
+          type of person.&nbsp;
         </p>
-        <p>- I love coffee and café</p>
-        <p>- A Mac user 💻</p>
+        <p>- I love going to a café to work, study, read, clear up my mind</p>
+        <p>- Using MacBook Pro, 2017 💻</p>
         <p>- Traveled places:</p>
       </div>
       <div className='flag flex flex-wrap gap-2 pl-3'>
