@@ -18,25 +18,31 @@ function Profile() {
       <div className='flex gap-1 pt-2'>
         <a href='https://www.linkedin.com/in/choijiwoo/'>
           <img
-            src='https://img.shields.io/badge/LinkedIn-2867B2?logo=linkedin&logoColor=ffffff'
+            src='https://img.shields.io/badge/LinkedIn-white?logo=linkedin&logoColor=2867B2'
             alt='LinkedIn'
           />
         </a>
         <a href='https://github.com/choi-jiwoo'>
           <img
-            src='https://img.shields.io/badge/Github-ffffff?logo=github&logoColor=black'
+            src='https://img.shields.io/badge/Github-white?logo=github&logoColor=black'
             alt='Github'
           />
         </a>
-        <a href='https://dev.to/choijiwoo'>
+        <a href='https://velog.io/@choi-jiwoo'>
           <img
-            src='https://img.shields.io/badge/dev.to-ffffff?logo=dev.to&logoColor=black'
-            alt='dev.to'
+            src='https://img.shields.io/badge/velog-white?logo=velog&logoColor=%2320C997'
+            alt='Velog'
+          />
+        </a>
+        <a href='https://twitter.com/cho2_ji'>
+          <img
+            src='https://img.shields.io/badge/Twitter-white?logo=twitter&logoColor=1DA1F2'
+            alt='Twitter'
           />
         </a>
         <a href='https://www.instagram.com/cho2_ji/'>
           <img
-            src='https://img.shields.io/badge/Instagram-ff00ff?logo=instagram&logoColor=ffffff'
+            src='https://img.shields.io/badge/Instagram-white?logo=instagram&logoColor=E4405F'
             alt='Instagram'
           />
         </a>
