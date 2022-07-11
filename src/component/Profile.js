@@ -34,12 +34,6 @@ function Profile() {
             alt='Velog'
           />
         </a>
-        <a href='https://twitter.com/cho2_ji'>
-          <img
-            src='https://img.shields.io/badge/Twitter-white?logo=twitter&logoColor=1DA1F2'
-            alt='Twitter'
-          />
-        </a>
         <a href='https://www.instagram.com/cho2_ji/'>
           <img
             src='https://img.shields.io/badge/Instagram-white?logo=instagram&logoColor=E4405F'
