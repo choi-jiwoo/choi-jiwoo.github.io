@@ -16,7 +16,7 @@ function Profile() {
         cho2.jiwoo@gmail.com
       </a>
       <div className='flex gap-1 pt-2'>
-        <a href='https://www.linkedin.com/in/choijiwoo/'>
+        <a href='https://www.linkedin.com/in/ji-woo-choi/'>
           <img
             src='https://img.shields.io/badge/LinkedIn-white?logo=linkedin&logoColor=2867B2'
             alt='LinkedIn'
