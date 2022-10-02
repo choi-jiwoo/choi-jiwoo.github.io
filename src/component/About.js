@@ -6,10 +6,19 @@ function About() {
       <div className='section-heading'>About</div>
       <div className='leading-relaxed'>
         <p className='indent-8'>
-          Starting Master's in Industrial Engineering program in Yonsei
-          University from 2022 Fall semester. Interested in tech industry
-          generally, Data Science, Data Engineering, and how technology and data
-          can bring about change.
+          Studying for a Master's degree in Industrial Engineering in{' '}
+          <span className='italic'>Yonsei University</span> under{' '}
+          <a
+            href='https://www.systemintelligencelab.website/'
+            className='text-blue-500'
+          >
+            Systems Intelligence Laboratory
+          </a>
+          .
+        </p>
+        <p className='indent-8'>
+          Interested in tech industry generally, Data Science, Data Engineering,
+          and how technology and data can bring about change.
         </p>
         <p className='indent-8'>
           I want to be involved in the great changes that are happening now with
