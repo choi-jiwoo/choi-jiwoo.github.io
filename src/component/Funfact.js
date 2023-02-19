@@ -20,7 +20,9 @@ function Funfact() {
           type of person.&nbsp;
         </p>
         <p>- I love going to a café to work, study, read, clear up my mind</p>
-        <p>- Using MacBook Pro, 2017 💻</p>
+        <p>- Using Apple products mostly</p>
+        <p className='indent-4'>- MacBook Pro, 2017 💻</p>
+        <p className='indent-4'>- iphone 12 Pro 📱</p>
         <p>- Traveled places:</p>
       </div>
       <div className='flag flex flex-wrap gap-2 pl-3'>
