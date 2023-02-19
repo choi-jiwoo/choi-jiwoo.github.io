@@ -5,8 +5,8 @@ function About() {
     <div className='pt-20'>
       <div className='section-heading'>About</div>
       <div className='leading-relaxed'>
-        <p className='indent-8'>
-          Studying for a Master's degree in Industrial Engineering in{' '}
+        <p>
+          - Studying for a Master's degree in Industrial Engineering in{' '}
           <span className='italic'>Yonsei University</span> under{' '}
           <a
             href='https://www.systemintelligencelab.website/'
@@ -16,13 +16,14 @@ function About() {
           </a>
           .
         </p>
-        <p className='indent-8'>
-          Interested in tech industry generally, Data Science, Data Engineering,
-          and how technology and data can bring about change.
+        <p>
+          - Interested in tech industry generally, Data Science, Data
+          Engineering, and how technology and data can bring about change.
         </p>
-        <p className='indent-8'>
-          I want to be involved in the great changes that are happening now with
-          big data and AI technologies in many other industries not only in IT.
+        <p>
+          - I want to be involved in the great changes that are happening now
+          with big data and AI technologies in many other industries not only in
+          IT.
         </p>
       </div>
     </div>
