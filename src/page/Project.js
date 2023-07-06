@@ -10,11 +10,11 @@ function Project() {
 
   return (
     <div className='project'>
-      <div className='font-bold text-3xl mt-8'>Personal Projects</div>
-      <p className='indent-5 mt-2'>Projects done personally.</p>
+      <div className='font-bold text-3xl mt-16'>PERSONAL PROJECTS</div>
+      <p className='indent-5 mt-2'>Projects done personally for fun</p>
       <hr className='mt-4' />
       <Portfolio list={personalProject} />
-      <div className='font-bold text-3xl mt-8'>Capstone Project</div>
+      <div className='font-bold text-3xl mt-16'>CAPSTONE PROJECT</div>
       <p className='indent-5 mt-2'>
         The project aims to provide people information on where to go when they
         are planning to involve in a Sustainable Tourism. As climate change
