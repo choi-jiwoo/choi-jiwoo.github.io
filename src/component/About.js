@@ -6,8 +6,8 @@ function About() {
       <div className='section-heading'>About</div>
       <div className='leading-relaxed'>
         <p>
-          - Studying for a Master's degree in Industrial Engineering in{' '}
-          <span className='italic'>Yonsei University</span> under{' '}
+          - Currently studying for a Master's degree in Industrial Engineering
+          in <span className='italic'>Yonsei University</span> under{' '}
           <a
             href='https://www.systemintelligencelab.website/'
             className='text-blue-500'
