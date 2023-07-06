@@ -34,7 +34,7 @@
   {
     "id": 4,
     "name": "fontend - React",
-    "url": "https://github.com/choi-jiwoo/capstone-project-react",
+    "url": "https://github.com/choi-jiwoo/capstone-design/tree/master/frontend",
     "stack": "React, Javascript",
     "description": "Created React application where user can get information on places where they can involve in Sustainable Tourism. User can look for restaurants, café, places to stay, and plogging courses. For restaurants, and café, user can choose filter keywords to find stores. Then, locations will be displayed in a map.",
     "whatidid": "Using React, we implemented 4 main services which provides user information on restaurant, café, places to stay, and plogging course. For plogging courses, we fetch walking/jogging courses from Durunubi service API. And with Kakao web API, location of stores and plogging courses are displayed on Kakako map."
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "backend - Django",
-    "url": "https://github.com/choi-jiwoo/capstone-project-django",
+    "url": "https://github.com/choi-jiwoo/capstone-design/tree/master/backend",
     "stack": "Django, Python, PostgreSQL",
     "description": "Created Django application for client to communicate with the server. Built REST API for the client to query data from a database.",
     "whatidid": "Scraped list of stores where Jeju local cash voucher can be used and store reviews from Naver Place. Extracted keywords from reviews, and stored store list and extracted keywords in PostgreSQL database. And built REST API with Django Rest Framework(DRF) that will handle query parameters sent from client to return the result of keyword filterings."
