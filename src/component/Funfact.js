@@ -27,19 +27,19 @@ function Funfact() {
       </div>
       <div className='flag flex flex-wrap gap-2 pl-3'>
         <p>
-          <span>🇵🇭</span> Philippines
+          <span>🇵🇭</span>
         </p>
         <p>
-          <span>🇭🇰</span> Hong Kong
+          <span>🇭🇰</span>
         </p>
         <p>
-          <span>🇲🇴</span> Macau
+          <span>🇲🇴</span>
         </p>
         <p>
-          <span>🇸🇬</span> Singapore
+          <span>🇸🇬</span>
         </p>
         <p>
-          <span>🇲🇾</span> Malaysia
+          <span>🇲🇾</span>
         </p>
       </div>
     </div>
