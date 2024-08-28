@@ -7,12 +7,17 @@ function Education() {
       <div>
         <div className='flex justify-between'>
           <div className='text-xl font-bold'>Yonsei University</div>
-          <div>September 2022 ~ Present</div>
+          <div>September 2022 ~ August 2024</div>
         </div>
         <div className='pl-4 leading-7 pb-4'>
           <p className='italic'>
-            - Master of Science in Industrial Engineering (Expected August 2024)
+            - Master of Science in Industrial Engineering
           </p>
+          <p>
+            - Thesis: "Anomaly Detection and Localization Using Few-Shot
+            Vision-Language Model Prompt Tuning"
+          </p>
+          <p>- GPA: 4.07 / 4.5</p>
         </div>
         <div className='flex justify-between'>
           <div className='text-xl font-bold'>Ajou University</div>
