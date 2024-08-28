@@ -1,12 +1,12 @@
 [
   {
     "title": "4 April, 1996",
-    "cardTitle": "Born in South Korea",
+    "cardTitle": "Born in South Korea🇰🇷",
     "cardDetailedText": "Born as the youngest son in the family."
   },
   {
     "title": "April, 2007",
-    "cardTitle": "Migrate to the Philippines",
+    "cardTitle": "Migration to the Philippines🇵🇭",
     "cardDetailedText": "Whole family migrated to the Philippines Cebu when I was 12 years old."
   },
   {
@@ -21,17 +21,17 @@
   },
   {
     "title": "22 August, 2016",
-    "cardTitle": "Join the Air Force",
+    "cardTitle": "Joining the Air Force🛩",
     "cardDetailedText": "Served military service as a military cook in Rebulic of Korea Air Force(ROKAF) for 24 months."
   },
   {
     "title": "21 August, 2018",
-    "cardTitle": "Dischared from the Air Force",
+    "cardTitle": "Dischared from the Air Force🫡",
     "cardDetailedText": "Successfully finished military service."
   },
   {
     "title": "March, 2019",
-    "cardTitle": "Transfer to University in South Korea",
+    "cardTitle": "Transfer University in South Korea",
     "cardDetailedText": "Transferred from University of San Carlos to Ajou University as 3rd year student and took E-business program."
   },
   {
@@ -43,5 +43,10 @@
     "title": "September, 2022",
     "cardTitle": "Starting Graduate Student Life",
     "cardDetailedText": "First semester as a graduate student in Yonsei University."
+  },
+  {
+    "title": "August, 2024",
+    "cardTitle": "Graduation👨🏻‍🎓",
+    "cardDetailedText": "Successfully Completed My Master's Degree in Yonsei University."
   }
 ]
