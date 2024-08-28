@@ -21,7 +21,7 @@ function Funfact() {
         </p>
         <p>- I love going to a café to work, study, read, clear up my mind</p>
         <p>- Using Apple products mostly</p>
-        <p className='indent-4'>- MacBook Pro, 2017 💻</p>
+        <p className='indent-4'>- MacBook Air 13 (M3) 💻</p>
         <p className='indent-4'>- iphone 12 Pro 📱</p>
         <p>- Traveled places:</p>
       </div>

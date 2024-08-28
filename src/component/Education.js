@@ -13,10 +13,6 @@ function Education() {
           <p className='italic'>
             - Master of Science in Industrial Engineering
           </p>
-          <p>
-            - Thesis: "Anomaly Detection and Localization Using Few-Shot
-            Vision-Language Model Prompt Tuning"
-          </p>
           <p>- GPA: 4.07 / 4.5</p>
         </div>
         <div className='flex justify-between'>
