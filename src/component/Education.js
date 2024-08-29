@@ -2,11 +2,11 @@ import React from 'react';
 
 function Education() {
   return (
-    <div className='pt-20'>
+    <div className='pt-10'>
       <div className='section-heading'>Education</div>
-      <div>
-        <div className='flex justify-between'>
-          <div className='text-xl font-bold'>Yonsei University</div>
+      <div className='pt-3'>
+        <div className='flex flex-wrap justify-between'>
+          <div className='flex-none text-xl font-bold'>Yonsei University</div>
           <div>September 2022 ~ August 2024</div>
         </div>
         <div className='pl-4 leading-7 pb-4'>
@@ -15,8 +15,8 @@ function Education() {
           </p>
           <p>- GPA: 4.07 / 4.5</p>
         </div>
-        <div className='flex justify-between'>
-          <div className='text-xl font-bold'>Ajou University</div>
+        <div className='flex flex-wrap justify-between'>
+          <div className='basis-4/6 text-xl font-bold'>Ajou University</div>
           <div>March 2019 ~ August 2022</div>
         </div>
         <div className='pl-4 leading-7 pb-4'>
@@ -25,8 +25,8 @@ function Education() {
           </p>
           <p>- GPA: 4.1 / 4.5</p>
         </div>
-        <div className='flex justify-between'>
-          <div className='text-xl font-bold'>University of San Carlos</div>
+        <div className='flex flex-wrap justify-between'>
+          <div className='flex-none text-xl font-bold'>University of San Carlos</div>
           <div>June 2013 ~ March 2016</div>
         </div>
         <div className='pl-4 leading-7 pb-4'>

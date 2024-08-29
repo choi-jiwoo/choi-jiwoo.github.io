@@ -5,16 +5,16 @@ import cv from '../asset/cv.pdf';
 
 const NavigationBar = () => {
   return (
-    <Navbar className='py-4' expand='lg'>
+    <Navbar className='py-4' variant="dark" expand='lg'>
       <Link
         className='navbar-brand font-extrabold tracking-widest'
         to='/choijiwoo'
       >
-        <p className='text-blue-500'>Choi Ji Woo</p>
+        <p className='text-2xl text-blue-500 tracking-widest'>CHOI JI WOO</p>
       </Link>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>
-        <Nav className='me-auto'>
+        <Nav className='me-auto justify-content-end flex-grow-1'>
           <Link
             className='nav-link font-extrabold tracking-widest'
             to={cv}
@@ -26,7 +26,7 @@ const NavigationBar = () => {
             className='nav-link font-extrabold tracking-widest'
             to='/choijiwoo/project'
           >
-            Project
+            PROJECT
           </Link>
         </Nav>
       </Navbar.Collapse>

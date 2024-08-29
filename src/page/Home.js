@@ -12,8 +12,8 @@ function Home() {
       <Profile />
       <Quotes />
       <About />
-      <Funfact />
       <Education />
+      <Funfact />
       <Timeline />
     </>
   );

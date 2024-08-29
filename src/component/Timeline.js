@@ -4,16 +4,16 @@ import events from '../asset/events.json';
 
 function Timeline() {
   return (
-    <div className='pt-20'>
+    <div className='pt-10'>
       <div className='section-heading'>Timeline</div>
-      <div className='pt-4' style={{ width: '100%', height: '350px' }}>
+      <div className='pt-10' style={{ width: '100%', height: '380px'}}>
         <Chrono
           items={events}
           mode='HORIZONTAL'
-          itemWidth='200'
+          itemWidth='150'
           cardHeight='100'
           theme={{
-            primary: '#4d4d4d',
+            primary: '#ffffff',
             secondary: '#3b82f6',
           }}
         />
