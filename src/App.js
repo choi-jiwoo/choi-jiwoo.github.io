@@ -5,7 +5,6 @@ import Footer from './component/Footer';
 import Home from './page/Home';
 import Project from './page/Project';
 import ScrollToTop from './scrollToTop';
-import NotFound from './page/NotFound';
 
 function App() {
   useEffect(() => {
@@ -25,7 +24,6 @@ function App() {
             <Route path='/choijiwoo' exact element={<Home />} />
             <Route path='/choijiwoo/cv.pdf' exact />
             <Route path='/choijiwoo/project' exact element={<Project />} />
-            <Route path='*' element={<NotFound />} />
           </Routes>
         </div>
         <Footer />
