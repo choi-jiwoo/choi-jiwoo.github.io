@@ -26,7 +26,6 @@ const NavigationBar = () => {
           <Link
             className='nav-link font-extrabold tracking-widest'
             to='/choijiwoo/project'
-            reloadDocument
           >
             PROJECT
           </Link>
