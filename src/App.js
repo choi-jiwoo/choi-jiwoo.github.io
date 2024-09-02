@@ -5,6 +5,10 @@ import Home from './page/Home';
 import Project from './page/Project';
 
 function App() {
+  useEffect(() => {
+    window.history.scrollRestoration = 'manual'
+  }, []);
+
   return (
     <Router>
       <div className='App flex flex-col'>
