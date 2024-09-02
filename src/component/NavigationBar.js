@@ -5,7 +5,7 @@ import cv from '../asset/cv.pdf';
 
 const NavigationBar = () => {
   return (
-    <Navbar className='py-4' variant='dark' expand='lg'>
+    <Navbar className='py-2' variant='dark' expand='lg'>
       <Link
         className='navbar-brand font-extrabold tracking-widest'
         to='/choijiwoo'
