@@ -7,9 +7,9 @@ import Project from './page/Project';
 import ScrollToTop from './scrollToTop';
 
 function App() {
-  useEffect(() => {
-    window.history.scrollRestoration = 'manual'
-  }, []);
+  // useEffect(() => {
+  //   window.history.scrollRestoration = 'manual'
+  // }, []);
 
 
   return (
