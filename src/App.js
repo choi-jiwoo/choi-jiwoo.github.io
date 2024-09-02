@@ -14,7 +14,7 @@ function App() {
           <NavigationBar />
         </div>
         <div className='content'>
-          <ScrollToTop />
+          {/* <ScrollToTop /> */}
           <Routes>
             <Route path='/choijiwoo' exact element={<Home />} />
             <Route path='/choijiwoo/cv.pdf' exact />
