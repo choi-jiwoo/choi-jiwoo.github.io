@@ -9,7 +9,7 @@ const NavigationBar = () => {
       <Link
         className='navbar-brand font-extrabold tracking-widest'
         to='/choijiwoo'
-        reloadDocument
+        onClick={() => window.location.href='/choijiwoo'}
       >
         <p className='text-2xl text-blue-500 tracking-widest'>CHOI JI WOO</p>
       </Link>
@@ -26,7 +26,7 @@ const NavigationBar = () => {
           <Link
             className='nav-link font-extrabold tracking-widest'
             to='/choijiwoo/project'
-            reloadDocument
+            onClick={() => window.location.href='/choijiwoo/project'}
           >
             PROJECT
           </Link>
