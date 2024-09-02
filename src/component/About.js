@@ -5,7 +5,7 @@ function About() {
     <div className='pt-10'>
       <div className='section-heading'>About</div>
       <div className='leading-relaxed pt-3'>
-        <div className='flex'>
+        {/* <div className='flex'>
           <p className='pr-4'>-</p>
           <p>
             Currently studying for a Master's degree in Industrial Engineering
@@ -18,7 +18,7 @@ function About() {
             </a>
             .
           </p>
-        </div>
+        </div> */}
         <div className='flex'>
           <p className='pr-4'>-</p>
           <p>
