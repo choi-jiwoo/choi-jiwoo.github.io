@@ -11,7 +11,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename='/choijiwoo'>
+    <Router basename='/choijiwoo/'>
       <div className='App flex flex-col'>
         <div className='sticky-nav border-b border-slate-600'>
           <NavigationBar />
