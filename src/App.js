@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 import NavigationBar from './component/NavigationBar';
 import Footer from './component/Footer';
 import Home from './page/Home';
@@ -7,6 +8,11 @@ import ScrollToTop from './scrollToTop';
 import NotFound from './page/NotFound';
 
 function App() {
+  useEffect(() => {
+    window.history.scrollRestoration = 'manual'
+  }, []);
+
+
   return (
     <Router>
       <div className='App flex flex-col'>
