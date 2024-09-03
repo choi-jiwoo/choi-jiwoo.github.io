@@ -51,10 +51,11 @@ nav {
   border-bottom-color: rgb(156, 163, 175);
   font-size: 2.25rem;
   line-height: 2.5rem;
+  text-transform: uppercase;
 }
 
-.card-title {
-  color: #3b82f6 !important;
+.card-title, .blue-theme {
+  color: #3671f2 !important;
 }
 
 .react-pdf__Page__canvas {

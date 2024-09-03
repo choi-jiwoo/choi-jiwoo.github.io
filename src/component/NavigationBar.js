@@ -11,7 +11,7 @@ const NavigationBar = () => {
         to='/choijiwoo'
         reloadDocument
       >
-        <p className='text-2xl text-blue-500 tracking-widest'>CHOI JI WOO</p>
+        <p className='text-2xl blue-theme tracking-widest'>CHOI JI WOO</p>
       </Link>
       <Link
         className='nav-link font-extrabold tracking-widest'

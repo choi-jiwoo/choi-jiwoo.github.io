@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <div className='pt-10'>
-      <div className='section-heading'>About</div>
+      <div className='section-heading'>About<span className='blue-theme'>.</span></div>
       <div className='leading-relaxed pt-3'>
         {/* <div className='flex'>
           <p className='pr-4'>-</p>

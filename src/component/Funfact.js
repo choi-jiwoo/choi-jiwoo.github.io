@@ -3,12 +3,12 @@ import React from 'react';
 function Funfact() {
   return (
     <div className='pt-10'>
-      <div className='section-heading'>Fun Facts</div>
+      <div className='section-heading'>Fun Facts<span className='blue-theme'>.</span></div>
       <div className='leading-7 pt-3'>
         <div className='flex'>
           <p className='pr-4'>-</p>
           <p>
-            <a href='https://www.16personalities.com/' className='text-blue-500'>
+            <a href='https://www.16personalities.com/' className='blue-theme'>
               Personality test (MBTI)
             </a>
             &nbsp;result says I'm an&nbsp;

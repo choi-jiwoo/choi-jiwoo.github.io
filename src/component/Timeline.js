@@ -5,7 +5,7 @@ import events from '../asset/events.json';
 function Timeline() {
   return (
     <div className='pt-10'>
-      <div className='section-heading'>Timeline</div>
+      <div className='section-heading'>Timeline<span className='blue-theme'>.</span></div>
       <div className='pt-10' style={{ width: '100%', height: '380px'}}>
         <Chrono
           items={events}
@@ -14,7 +14,7 @@ function Timeline() {
           cardHeight='100'
           theme={{
             primary: '#ffffff',
-            secondary: '#3b82f6',
+            secondary: '#3671f2',
           }}
         />
       </div>

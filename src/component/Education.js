@@ -3,7 +3,7 @@ import React from 'react';
 function Education() {
   return (
     <div className='pt-10'>
-      <div className='section-heading'>Education</div>
+      <div className='section-heading'>Education<span className='blue-theme'>.</span></div>
       <div className='pt-3'>
         <div className='flex flex-wrap justify-between'>
           <div className='flex-none text-xl font-bold'>Yonsei University</div>

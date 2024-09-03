@@ -9,11 +9,8 @@ function Project() {
   const capstoneProject = projects.slice(personalProjectLen, projects.length);
 
   return (
-    <div className='project'>
-      <div className='font-bold text-3xl mt-16'>PERSONAL PROJECTS</div>
-      <p className='indent-5 mt-2'>Projects done personally for fun</p>
-      <hr className='mt-4' />
-      <Portfolio list={personalProject} />
+    <div className='pt-10'>
+      <div className='section-heading'>Projects<span className='blue-theme'>.</span></div>
       <div className='font-bold text-3xl mt-16'>CAPSTONE PROJECT</div>
       <p className='indent-5 mt-2'>
         The project aims to provide people information on where to go when they
@@ -27,8 +24,11 @@ function Project() {
         negative effects caused by overtourism like rising rents and
         environmental pollutions in the region.
       </p>
-      <hr className='mt-4' />
       <Portfolio list={capstoneProject} />
+      <hr className='mt-4' />
+      <div className='font-bold text-3xl mt-16'>PERSONAL PROJECTS</div>
+      <p className='indent-5 mt-2'>Projects done personally for fun</p>
+      <Portfolio list={personalProject} />
     </div>
   );
 }
