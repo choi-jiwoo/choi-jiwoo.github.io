@@ -1,5 +1,5 @@
 import React from 'react';
-import Portfolio from '../component/Portfolio';
+import Portfolio from './Portfolio';
 import projects from '../asset/projects.json';
 
 function Project() {

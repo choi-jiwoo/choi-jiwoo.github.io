@@ -5,6 +5,7 @@ import Timeline from '../component/Timeline';
 import Education from '../component/Education';
 import Quotes from '../component/Quotes';
 import Funfact from '../component/Funfact';
+import Project from '../component/Project';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Education />
       <Funfact />
       <Timeline />
+      <Project />
     </>
   );
 }
