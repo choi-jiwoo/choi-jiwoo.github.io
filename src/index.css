@@ -106,6 +106,13 @@ span.show-more * {
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .carousel {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+}
+
 #quote > p {
   color: rgb(205, 210, 220) !important;
 }
