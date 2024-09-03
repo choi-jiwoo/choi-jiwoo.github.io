@@ -5,7 +5,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Manrope', 'inter', sans-serif;
+  font-family: "Manrope", "inter", sans-serif;
   color: rgb(255 255 255);
 }
 
@@ -17,7 +17,8 @@
   z-index: 1020;
 }
 
-nav, .App {
+nav,
+.App {
   background-color: rgb(27, 27, 27);
 }
 
@@ -54,8 +55,25 @@ nav {
   text-transform: uppercase;
 }
 
-.card-title, .blue-theme {
+.card-title,
+.blue-theme {
   color: #3671f2 !important;
+}
+
+.desc-container {
+  border-radius: 1.5rem;
+  border-color: rgb(107, 103, 103);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  background-color: #2f2d2d;
+  padding-block: 25px;
+  padding-inline: 30px;
+  margin-bottom: 2.5rem;
+}
+
+.content-desc {
+  text-align: justify;
 }
 
 .react-pdf__Page__canvas {
@@ -100,7 +118,7 @@ span.show-more * {
 }
 
 .projectName:hover:after {
-  content: ' ↗︎';
+  content: " ↗︎";
 }
 
 .carousel-item > img {
