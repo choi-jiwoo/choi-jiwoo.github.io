@@ -8,7 +8,7 @@ const NavigationBar = () => {
     <Navbar className="py-2 flex justify-between" variant="dark" expand="lg">
       <Link
         className="navbar-brand font-extrabold tracking-widest"
-        to="/choijiwoo"
+        to="/"
         reloadDocument
       >
         <p className="text-2xl blue-theme">CHOI JI WOO</p>
