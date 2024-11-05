@@ -9,19 +9,19 @@
   },
   {
     "id": 1,
-    "name": "pyqt stock chart",
-    "url": "https://github.com/choi-jiwoo/pyqt-stock-chart",
-    "stack": "Python, PyQt5, PyInstaller",
-    "description": "pyqt stock chart is a simple Mac OS application that displays stock price chart in a watchlist. The application can add and remove stocks in the watchlist. Price chart of stocks in the watchlist will be loaded. The project is primarily made for my personal use to easily track the price of stocks I have invested.",
-    "whatidid": "Used PyQt5 in building GUI application and deployed an executable application with PyInstaller."
-  },
-  {
-    "id": 2,
     "name": "naverplacescraper",
     "url": "https://github.com/choi-jiwoo/naver-place-scraper",
     "stack": "Python, Web Scraping",
     "description": "naverplacescraper is a python package that scrapes store reviews of a store from Naver Place. User can search by store name, or multiple stores at once. naverplacescraper is made for research or data mining purposes only.",
     "whatidid": "Made a bot to scrape store description and store reviews that is searched. Deployed the package to PypI. Originally, it was made to use it on my capstone project."
+  },
+  {
+    "id": 2,
+    "name": "pyqt stock chart",
+    "url": "https://github.com/choi-jiwoo/pyqt-stock-chart",
+    "stack": "Python, PyQt5, PyInstaller",
+    "description": "pyqt stock chart is a simple Mac OS application that displays stock price chart in a watchlist. The application can add and remove stocks in the watchlist. Price chart of stocks in the watchlist will be loaded. The project is primarily made for my personal use to easily track the price of stocks I have invested.",
+    "whatidid": "Used PyQt5 in building GUI application and deployed an executable application with PyInstaller."
   },
   {
     "id": 3,
