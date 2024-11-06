@@ -1,10 +1,12 @@
-import React from 'react';
+import React from "react";
 
 function About() {
   return (
-    <div className='pt-10'>
-      <div className='section-heading'>About<span className='blue-theme'>.</span></div>
-      <div className='leading-relaxed pt-3'>
+    <div className="pt-10">
+      <div className="section-heading">
+        About<span className="blue-theme">.</span>
+      </div>
+      <div className="leading-relaxed pt-3">
         {/* <div className='flex'>
           <p className='pr-4'>-</p>
           <p>
@@ -19,20 +21,16 @@ function About() {
             .
           </p>
         </div> */}
-        <div className='flex'>
-          <p className='pr-4'>-</p>
+        <div className="flex">
+          <p className="pr-4">-</p>
           <p>
-            Interested in tech industry generally, Data Science, Data
-            Engineering, and how technology and data can bring about change.
+            Interested in tech industry generally, ML/DL, Data Science, and how
+            technology and data can bring about change.
           </p>
         </div>
-        <div className='flex'>
-          <p className='pr-4'>-</p>
-          <p>
-            I want to be involved in the great changes that are happening now
-            with big data and AI technologies in many other industries not only in
-            IT.
-          </p>
+        <div className="flex">
+          <p className="pr-4">-</p>
+          <p>Interested in leveraging AI to drive business value.</p>
         </div>
       </div>
     </div>
